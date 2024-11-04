@@ -1,5 +1,11 @@
+import Post from "./screens/Post";
+
 function App() {
-  return <div className="text-3xl font-bold underline">here it is</div>;
+  return (
+    <div>
+      <Post />
+    </div>
+  );
 }
 
 export default App;

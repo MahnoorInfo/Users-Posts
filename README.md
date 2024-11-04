@@ -2,9 +2,9 @@
 
 # APIS
 
-https://jsonplaceholder.typicode.com/comments  <br />
-https://jsonplaceholder.typicode.com/users   <br />
-https://jsonplaceholder.typicode.com/posts <br />
+    https://jsonplaceholder.typicode.com/comments
+    https://jsonplaceholder.typicode.com/users
+    https://jsonplaceholder.typicode.com/posts
 
 # React + Vite
 
