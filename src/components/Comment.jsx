@@ -6,9 +6,14 @@ function comment({ id, comments }) {
       <h4 className="text-red-300">Comments</h4>
 
       {getCommentsForPost(id, comments)?.map((comment) => (
-        <p key={comment.id} style={{ marginBottom: "5px" }}>
-          <strong>{comment.name}:</strong> {comment.body}
-        </p>
+        <>
+          <p key={comment.id} style={{ marginBottom: "5px" }}>
+            <strong>{comment.name}:</strong> {comment.body}
+          </p>
+          <p>
+            <strong>{comment.email}</strong>
+          </p>
+        </>
       ))}
     </div>
   );
